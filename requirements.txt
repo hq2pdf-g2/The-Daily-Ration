@@ -1,6 +1,13 @@
-streamlit   # For creating the web application
-feedparser   # For parsing RSS feeds
-pandas         # For data manipulation and table display
-beautifulsoup4 # For cleaning HTML content
-requests    # For making HTTP requests
-python-dateutil # For date parsing and formatting
+streamlit        # Web application UI
+feedparser       # Parsing RSS feeds
+beautifulsoup4   # Parsing/cleaning HTML content (article scraping)
+requests         # Making HTTP requests
+python-dotenv    # Loading environment variables from .env
+psycopg[binary]  # PostgreSQL database driver
+psycopg-pool     # PostgreSQL connection pooling
+
+# Used by helper.py / spider.py
+scrapy           # Web scraping / crawling
+fastapi          # API layer
+uvicorn          # ASGI server for FastAPI
+openai           # OpenAI API client
