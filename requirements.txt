@@ -1,1 +1,6 @@
-streamlit
+streamlit   # For creating the web application
+feedparser   # For parsing RSS feeds
+pandas         # For data manipulation and table display
+beautifulsoup4 # For cleaning HTML content
+requests    # For making HTTP requests
+python-dateutil # For date parsing and formatting
